@@ -1,0 +1,4 @@
+# python code format adjustment
+autopep8 --in-place --aggressive --aggressive <filename>
+# Pytorch to ONNX model 
+python ".\tools\scrfd2onnx.py" ".\configs\scrfd\scrfd_10g.py" ".\model.pth" --output-file ".\model.onnx"
